@@ -14,8 +14,11 @@ body{
     height:50px; width: 800px;
 }
 .joinmenu{
-    font-size: 10px;
-    float:right;
+    font-size: 15px;
+    position: relative;
+    left:100%;
+    top:30%;
+    transform: translate(-15%);
 }
 
 img{
