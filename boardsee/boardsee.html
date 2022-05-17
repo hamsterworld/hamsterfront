@@ -70,6 +70,55 @@
                         여기에 글내용이 들어갈겁니다.여기에 글내용이 들어갈겁니다.여기에 글내용이 들어갈겁니다.여기에 글내용이 들어갈겁니다.
                     </span>
                 </div>
+                <div class="comment_box">
+                    <ul class="comment_ul">
+                        <li class="comment_li">
+                            <div class="comment_div">
+                                <div class="userid">
+                                <span>아이디1 2022/06/18 14:53:21 수정 삭제</span>
+                                </div>
+                                <div class="usercomment">
+                                    <textarea type="text" class="comment_input">댓글입니다.</textarea>
+                                    <button type="button">댓글 수정</button>
+                                </div>
+                            </div>
+                        </li>
+                        <hr class="hr">
+                        <li class="comment_li">
+                            <div class="comment_div">
+                                <div class="userid">
+                                <span>아이디2 2022/06/18 14:53:21 수정 삭제</span>
+                                </div>
+                                <div class="usercomment">
+                                <span>댓글내용2입니다댓글내용2입니다.댓글내용2입니다.댓글내용2입니다.댓글내용2입니다.</span>
+                                    
+                                </div>
+                            </div>
+                        </li>
+                        <hr class="hr">
+                        <li class="comment_li">
+                            <div class="comment_div">
+                                <div class="userid">
+                                    <span>아이디3 2022/06/18 14:53:21 수정 삭제</span>
+                                </div>
+                                <div class="usercomment">
+                                <span>댓글내용3입니다.댓글내용3입니다.댓글내용3입니다.댓글내용3입니다.댓글내용3입니다.댓글내용3입니다.댓글내용3입니다.댓글내용3입니다.댓글내용3입니다.댓글내용3입니다.댓글내용3입니다.</span>댓글내용3입니다.
+                                </div>
+                            </div>
+                        </li>
+                        <hr class="hr">
+                    </ul>
+                </div>
+                <div class="comment_write">
+                    <div class="comment_write_user">
+                        <span id="commentwritenickname">유저닉네임나오는곳</span>
+                    </div>
+                    <div class="comment_write_write">
+                        <textarea type="text" class="comment_input">안녕</textarea>
+                    <button type="button" id="btncomwrite">댓글쓰기</button>
+                    </div>
+                </div>
+                <hr>
                 <div>
                     <button type="button">목록으로</button>
                     <button type="button" id="updatebutton">수정</button>
@@ -80,3 +129,6 @@
 </div>
 </body>
 </html>
+
+//댓글수정하기는 <span>이쪽을 날려버리고 display:none;<span> 이런걸로한다음에 div append해서 textarea붙이고
+    //수정할내용 준다음에. 다시 서버로 보내서 write하던것처럼 하면된다.

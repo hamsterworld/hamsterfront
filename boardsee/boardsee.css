@@ -159,3 +159,38 @@ margin-right:11px;
     position: relative;
     left:79.2%;
 }
+
+.comment_box{
+    border: 1px solid yellow;
+}
+
+.userid{
+margin-right: 33px;
+margin-top:4px;
+padding-bottom: 3px;
+border-bottom: 1px solid black;
+}
+
+.usercomment{
+    margin-top:5px;
+    width: 763px;
+}
+
+.comment_input{
+    resize: none;
+    width: 700px;
+    height: 50px;
+
+}
+
+#btncomwrite{
+position: relative;
+bottom: 7px;
+left:5px
+}
+
+#commentwritenickname{
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
